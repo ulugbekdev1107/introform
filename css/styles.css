@@ -1,3 +1,64 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v12-latin-500.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v12-latin-600.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin-600.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v12-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* Global Root */
+:root{
+  --bn-green:#4DC490;
+  --bn-white:#ffffff;
+  --bn-black:#000000;
+  --bn-black-one:#555555;
+  --bn-red:#F03535;
+  --bn-blue:#655AF2;
+}
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -29,33 +90,6 @@ img {
   height: auto;
 }
 
-
-/* AUTOFILL-STYLES */
-/*input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border-color: transparent;
-  -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-}*/
-
-
-/* PLACEHOLDER-STYLES */
-/*::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-:-moz-placeholder {
-  color: rgba(52, 49, 61, 0.5);
-  opacity: 1;
-}*/
-
-
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -72,9 +106,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1190px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
 }
